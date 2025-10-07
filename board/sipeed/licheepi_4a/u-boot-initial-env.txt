@@ -1,0 +1,4 @@
+bootdelay=2
+baudrate=115200
+bootcmd=sysboot mmc 0:2 any 0xc0000000 /extlinux/extlinux.conf
+

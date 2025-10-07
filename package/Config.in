@@ -639,6 +639,7 @@ endmenu
 	source "package/superiotool/Config.in"
 	source "package/sysstat/Config.in"
 	source "package/targetcli-fb/Config.in"
+	source "package/thead-ddrfw/Config.in"
 	source "package/ti-gfx/Config.in"
 	source "package/ti-sgx-demos/Config.in"
 	source "package/ti-sgx-km/Config.in"

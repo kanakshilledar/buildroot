@@ -1,0 +1,8 @@
+config BR2_PACKAGE_THEAD_DDRFW
+	bool "thead-ddrfw"
+	depends on BR2_riscv && BR2_PACKAGE_LUA
+	help
+	  This package provides TH1520 SoC DDR firmware
+	  training blobs.
+
+	  https://github.com/ziyao233/th1520-firmware
